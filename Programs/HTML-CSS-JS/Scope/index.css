@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+
+#mainlogo{
+	display:block;
+	width:70%;
+	height: 20%;
+	margin:auto;
+}
+.content {
+  padding: 16px;
+}
+
+body{
+	background-image : url(background.jpg);
+	background-repeat : repeat;
+}
+hr{
+	border-color:#411E00;
+	border-style: solid;
+	margin-left:275px;
+
+.header{
+	background-color:#411E00;
+	margin-left:275px;
+	margin-right:275px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color:#ddca86;
+    margin-top: 0px;
+	overflow: hidden;
+    margin-left:275px;
+    margin-right:275px;
+    margin-top:-15px;
+	font-family:'Architects Daughter';
+}
+
+li a, .dropbtn {
+	font-size:20px;
+    display: inline-block;
+	color:#411E00;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbar li a:hover, .dropdown:hover .dropbtn {
+	font-size:20px;
+    background-color: #411E00;
+    color:#ddca86;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+li{
+	float:left;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #914100;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: #ddca86;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #622c00;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#article1{
+	color:white;
+	font-family:'Architects Daughter';
+	background-color:#733400;
+	border-style: solid;
+	border-width:5px;
+	margin-left: 240px;
+	padding-left:10px;
+	margin-right: 240px;
+	border-radius: 5px;
+	border-color:#411E00;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0);
+}
+ ::-webkit-scrollbar-track {
+ background: #351800;
+ }
+ ::-webkit-scrollbar-thumb {
+    background: #914100;
+    -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0);
+}
+::-webkit-scrollbar-button {
+    background-size: 100%;
+    height: 20px;
+    width: 20px;
+    -webkit-box-shadow: inset 1px 1px 2px rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar-button:horizontal:increment {
+    background:#914100;
+}
+
+::-webkit-scrollbar-button:horizontal:decrement {
+    background:#914100;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+	background:#914100;
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+    background:#914100;
+}
