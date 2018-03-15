@@ -1,4 +1,4 @@
-#Choose a language
-##I code those langs
+# Choose a language
+## I code those langs
 ```Python```
-My favorite language
+***My favorite language***
