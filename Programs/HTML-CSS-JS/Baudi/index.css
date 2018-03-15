@@ -1,0 +1,68 @@
+#title{
+	text-align: center;
+	font-size:70px;
+	font-family: "Josefin Slab";
+	color:#e2d103;
+}
+#title_stuff {
+	font-size:23px;
+	font-family: "Josefin Slab";
+	color: #6492fd;
+}
+li a{
+	color: #e2d103;
+	
+	text-decoration:none;
+}
+ul li{
+	display:inline;
+}
+#header{
+	background-color: #6492fd;
+}
+body{
+	background-color:#3773fd; 
+}
+hr{
+	border-style: solid;
+	border-color:#6492fd;
+}
+
+#about{
+	text-align: center;
+}
+#car1{
+	width:330px ;
+	border-width: 15px;
+	border-color: #6492fd #6492fd #e2d103 #e2d103;
+	border-style: solid;
+	border-radius: 20px;
+}
+#car2{
+	width:421.5px ;
+	border-width: 15px;
+	border-color: #6492fd #6492fd #e2d103 #e2d103;
+	border-style: solid;
+	border-radius: 20px;
+}
+#car3{
+	width:570px ;
+	border-width: 15px;
+	border-color: #6492fd #6492fd #e2d103 #e2d103;
+	border-style: solid;
+	border-radius: 20px;
+	}
+#car4{
+	width:537px ;
+	border-width: 15px;
+	border-color: #6492fd #6492fd #e2d103 #e2d103;
+	border-style: solid;
+	border-radius: 20px;
+}
+#subheading{
+	text-align:center;
+	font-family: "Josefin Slab";
+	color:white;
+	font-size:35px;
+	
+}
