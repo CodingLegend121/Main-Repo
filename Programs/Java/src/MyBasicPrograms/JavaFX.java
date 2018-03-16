@@ -14,12 +14,12 @@ public class JavaFX extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		Button btn = new Button("Click me"); 
-		
+		Button btn = new Button("Click me");
+
 		StackPane root = new StackPane();
-		
+
 		primaryStage.show();
-		
+
 	}
 
 }
