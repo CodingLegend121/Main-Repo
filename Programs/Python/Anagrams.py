@@ -31,5 +31,9 @@ if anagramType == 'c':
 	checker(wordC)
 elif anagramType == 'g':
 	wordG = input('Word [ 2-5 letters recommended ] : ')
-	print('\n')
-	generator(wordG)
+	if len(wordG) > 7:
+		print('This will take forever... Try using less than 7 letter word')
+	else:
+		print('\n')
+		generator(wordG)
+		print('\n\n\nDone..')
