@@ -25,11 +25,11 @@ def checker(checkString):
 		
 		
 anagramType = input('Check or Generate [c/g]')
-if anagramType == 'c':
+if anagramType in ['c','C','check','Check']:
 	wordC = input('Type two words using a comma to separate : ')
 	print('\n')
 	checker(wordC)
-elif anagramType == 'g':
+elif anagramType in ['g','G','generate','Generate']:
 	wordG = input('Word [ 2-5 letters recommended ] : ')
 	print('\n')
 	generator(wordG)
