@@ -1,15 +1,15 @@
-function truck(x,y) {
+function truck(x, y, speed) {
   this.x = x;
   this.y = y;
   this.xdir = 0;
-  this.ydir = 7;
-  console.log("truck",this.x,this.y);
+  this.ydir = speed;
+  console.log("truck", this.x, this.y);
 
   this.show = function() {
-   image(img2,this.x,this.y,100,190)
-/*    rect(this.x,this.y,100,190)
-    noStroke()
-    fill(0,255,0)*/
+    image(img2, this.x, this.y, 100, 190)
+    /*    rect(this.x,this.y,100,190)
+        noStroke()
+        fill(0,255,0)*/
   }
 
   this.move = function() {
