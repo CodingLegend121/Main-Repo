@@ -45,3 +45,59 @@ def invert(image):
 	img = imgExtract(image)
 	img = subtractRGB(flattenImg(img))
 	createImage(img,'inverted')
+
+def contrast(thing):
+	for i,value in enumerate(thing):
+		if value > 127:
+			thing[i] = (152,251,152)
+		else:
+			thing[i] = (0,0,0)
+	return thing
+
+def contrast2(thing):
+	for i,value in enumerate(thing):
+		if value == 255:
+			thing[i] = (255,255,255)
+		else:
+			thing[i] = (0,0,0)
+	return thing
+
+
+def binaryfy(thing):
+	for i,value in enumerate(thing):
+		if value < 127:
+			thing[i] = 1
+		else:
+			thing[i] = 0
+	return thing	
+
+def unbinaryfy(thing):
+	for i,value in enumerate(thing):
+		if value == '1':
+			thing[i] = 0
+		else:
+			thing[i] = 255
+	return thing	
+
+
+def compress(thing):
+	for i,value in enumerate(thing):
+		thing[i] = statistics.mode(thing[i])
+	return thing
+
+'''def step1(img):
+	imageBin = binaryfy(compress(avgList(imgExtract(img))))
+	imageBin = ''.join(map(str,imageBin))
+	imageBin = str(int(imageBin,2))
+	imageFile = open('dataFile.txt','w+')
+	imageFile.write(imageBin)
+	imageFile.close()
+
+
+def step2():
+	dataFile = open('dataFile.txt','r')
+	imageData = dataFile.read()
+	imageData = flattenImg(contrast2(unbinaryfy(list(format(int(imageData),'b')))))
+
+	createImage(imageData,'final2')
+'''
