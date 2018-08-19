@@ -83,6 +83,9 @@ body {
   padding:  0% 0% 0% 0%;
 
 }
+#title2{
+  visibility: collapse;
+}
 /* The side navigation menu */
 .sidenav {
     height: 100%;
@@ -104,7 +107,6 @@ body {
     color: #FFA;
     display: block;
     transition: 1s;
-    font-size: 1.5vw;
 }
 .sidenav a:hover {
     color: #951;
@@ -120,9 +122,48 @@ body {
     transition: margin-left 1s;
     padding: 16px;
 }
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+@media screen and (max-width: 650px) {
+  .sidenav {
+    padding-top: 55px;
+    width: auto;
+    background-color: #FFA;
+    position:relative;
+    box-shadow: 0px 0px 0px 0px;
+  }
+  .sidenav a {
+    text-align: center;
+    font-size: 28px;
+    color: #951;
+  }
+  body{
+    background-color: #FFA;
+  }
+  .closebtn{
+    visibility:hidden;
+  }
+  #title{
+    visibility: collapse;
+  }
+  #title2{
+    visibility: visible;
+    color:#FFA;
+    cursor:default;
+    background-color: #951;
+    border-radius: 10px;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align:center;
+    font-family: ProductSans;
+    font-size: 8vw;
+
+  }
+  .sideTitles:hover{
+    background-color: #F73;
+    border-radius: 50px;
+  }
+
 }
 /* width */
 ::-webkit-scrollbar {
