@@ -1,0 +1,140 @@
+body {
+  background-color:#FF9100;
+}
+#title {
+  color:#FFA;
+  cursor:default;
+  background-color: rgba(250,100,50,0.3);
+  border-radius: 10px;
+  margin-right: 25%;
+  margin-left: 25%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align:center;
+  font-family: ProductSans;
+  font-size: 3vw;
+}
+.time{
+  text-align: center;
+  background: #FFA;
+  border-radius: 10px;
+  font-family: ProductSans;
+  margin-right: 23%;
+  margin-left: 23%;
+  padding: 2% 5% 2% 5%;
+  letter-spacing: .45px;
+  line-height:normal;
+  color:#951;
+  font-size: 1.25vw;
+}
+.paragraph {
+  text-align: center;
+  background: #FFA;
+  border-radius: 10px;
+  font-family: ProductSans;
+  margin-right: 23%;
+  margin-left: 23%;
+  padding: 2% 5% 2% 5%;
+  text-align: justify;
+  line-height:normal;
+  color:#F73;
+  text-indent: 30px;
+  font-size: 1.25vw;
+}
+.sideTitles {
+  font-family: ProductSans;
+  margin: 0px 5px 0px 5px;
+  border-radius: 50px;
+}
+.sideTitles:hover{
+  background-color: #FFA;
+  border-radius: 50px;
+}
+@font-face {
+  font-family: ProductSans;
+  src:  url('ProductSansRegular.ttf');
+}
+.embed{
+  width:44%;
+  transition: 1s;
+  margin-right: 23%;
+  margin-left: 23%;
+  background-color: #FFA;
+  padding: 2% 5% 2% 5%;
+  border-radius: 15px;
+}
+.image{
+  width:44%;
+  transition: 1s;
+  margin-right: 23%;
+  margin-left: 23%;
+  background-color: #FFA;
+  padding: 2% 5% 2% 5%;
+  border-radius: 15px;
+
+}
+.image:hover{
+  width:54%;
+  border-style: none;
+  border-width: thick;
+  margin-right: 15%;
+  margin-left: 23%;
+  background-color: #FFF;
+  padding:  0% 0% 0% 0%;
+
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F73;
+    overflow-x: hidden;
+    transition: 1s;
+    padding-top: 60px;
+    box-shadow: inset -30px -30px 30px -30px rgba(0,0,0,0.3);
+}
+.sidenav a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFA;
+    display: block;
+    transition: 1s;
+    font-size: 1.5vw;
+}
+.sidenav a:hover {
+    color: #951;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left 1s;
+    padding: 16px;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FFA;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #951;
+}
