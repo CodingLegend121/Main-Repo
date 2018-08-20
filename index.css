@@ -8,11 +8,12 @@ body {
   border-radius: 10px;
   margin-right: 25%;
   margin-left: 25%;
+  margin-top: -90px;
   padding-top: 15px;
   padding-bottom: 15px;
   text-align:center;
   font-family: ProductSans;
-  font-size: 3vw;
+  font-size: 4vw;
 }
 .time{
   text-align: center;
@@ -43,8 +44,9 @@ body {
 }
 .sideTitles {
   font-family: ProductSans;
-  margin: 0px 5px 0px 5px;
+  margin-left: 1%;
   border-radius: 50px;
+  margin: 0px 5px 0px 5px;
 }
 .sideTitles:hover{
   background-color: #FFA;
@@ -53,15 +55,6 @@ body {
 @font-face {
   font-family: ProductSans;
   src:  url('ProductSansRegular.ttf');
-}
-.embed{
-  width:44%;
-  transition: 1s;
-  margin-right: 23%;
-  margin-left: 23%;
-  background-color: #FFA;
-  padding: 2% 5% 2% 5%;
-  border-radius: 15px;
 }
 .image{
   width:44%;
@@ -86,6 +79,9 @@ body {
 #title2{
   visibility: collapse;
 }
+ul a{
+  visibility: collapse;
+}
 /* The side navigation menu */
 .sidenav {
     height: 100%;
@@ -97,13 +93,13 @@ body {
     background-color: #F73;
     overflow-x: hidden;
     transition: 1s;
-    padding-top: 60px;
+    padding-top: 100px;
     box-shadow: inset -30px -30px 30px -30px rgba(0,0,0,0.3);
 }
 .sidenav a {
-    padding: 8px 8px 8px 20px;
+    padding: 8px 8px 8px 18px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 2vw;
     color: #FFA;
     display: block;
     transition: 1s;
@@ -124,16 +120,7 @@ body {
 }
 @media screen and (max-width: 650px) {
   .sidenav {
-    padding-top: 55px;
-    width: auto;
-    background-color: #FFA;
-    position:relative;
-    box-shadow: 0px 0px 0px 0px;
-  }
-  .sidenav a {
-    text-align: center;
-    font-size: 28px;
-    color: #951;
+    visibility: collapse;
   }
   body{
     background-color: #FFA;
@@ -150,8 +137,8 @@ body {
     cursor:default;
     background-color: #951;
     border-radius: 10px;
-    margin-right: 25%;
-    margin-left: 25%;
+    margin-right: 17%;
+    margin-left: 17%;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align:center;
@@ -159,11 +146,46 @@ body {
     font-size: 8vw;
 
   }
-  .sideTitles:hover{
-    background-color: #F73;
-    border-radius: 50px;
+  .paragraph{
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #951;
+    color: white;
+    font-size: 2vw;
+  }
+  .time{
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #951;
+    color: white;
+    font-size: 2.5vw;
   }
 
+  ul{
+    visibility: visible;
+    text-align: center;
+    margin-right: 10%;
+  }
+  ul a{
+    visibility: visible;
+    text-decoration: none;
+    font-size: 4vw;
+    color: #951;
+    transition: .7s;
+  }
+  ul a:hover{
+    color:#FF9100;
+  }
+  .image{
+    width: 64%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .image:hover{
+    width: 80%;
+    margin-left: 9%;
+    background-color: #FFF;
+  }
 }
 /* width */
 ::-webkit-scrollbar {
