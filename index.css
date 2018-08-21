@@ -14,6 +14,8 @@ body {
   text-align:center;
   font-family: ProductSans;
   font-size: 4vw;
+  box-shadow: 0.6vw 0.6vw 0vw 0vw #951;
+
 }
 .time{
   text-align: center;
@@ -27,6 +29,18 @@ body {
   line-height:normal;
   color:#951;
   font-size: 1.25vw;
+  box-shadow: 0.6vw 0.6vw 0vw 0vw;
+  transition: 1s;
+}
+.time:hover{
+  box-shadow: 0px 0px 0px 0px #951;
+  color: #FFF;
+  background-color: #951;
+}
+.paragraph:hover{
+  box-shadow: 0px 0px 0px 0px #951;
+  color: #FFF;
+  background-color: #951;
 }
 .paragraph {
   text-align: center;
@@ -39,7 +53,9 @@ body {
   text-align: justify;
   line-height:normal;
   color:#F73;
+  transition: 1s;
   text-indent: 30px;
+  box-shadow: 0.6vw 0.6vw 0vw 0vw #951;
   font-size: 1.25vw;
 }
 .sideTitles {
@@ -63,6 +79,7 @@ body {
   margin-left: 23%;
   background-color: #FFA;
   padding: 2% 5% 2% 5%;
+  box-shadow: 0.6vw 0.6vw 0vw 0vw #951;
   border-radius: 15px;
 
 }
@@ -74,6 +91,7 @@ body {
   margin-left: 23%;
   background-color: #FFF;
   padding:  0% 0% 0% 0%;
+  box-shadow:0px 0px 0px 0px #FF9100;
 
 }
 #title2{
@@ -93,7 +111,7 @@ ul a{
     left: 0;
     background-color: #F73;
     overflow-x: hidden;
-    transition: 1s;
+    transition: .75s;
     padding-top: 100px;
     box-shadow: inset -30px -30px 30px -30px rgba(0,0,0,0.3);
 }
@@ -153,12 +171,14 @@ ul a{
     background-color: #951;
     color: white;
     font-size: 2vw;
+    box-shadow: 0px 0px 0px 0px;
   }
   .time{
     margin-left: 0px;
     margin-right: 0px;
     background-color: #951;
     color: white;
+    box-shadow: 0px 0px 0px 0px;
     font-size: 2.5vw;
   }
 
@@ -184,12 +204,14 @@ ul a{
     margin-right: 10%;
     background-color: #951;
     padding: 4% 5% 4% 5%;
+    box-shadow: 0px 0px 0px 0px;
     border-radius: 15px;
   }
   .image:hover{
     width: 100%;
     margin-left: 0px;
     margin-right: -20px;
+    box-shadow: 0px 0px 0px 0px;
     background-color: #FFA;
   }
 }
