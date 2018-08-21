@@ -11,3 +11,7 @@ function closeNav() {
 if (window.innerWidth < 650) {
   console.log('Hooray!');
 }
+
+function openUrl(url) {
+  window.open(url, "_blank")
+}
