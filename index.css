@@ -173,8 +173,8 @@ ul a {
     cursor: default;
     background-color: #951;
     border-radius: 10px;
-    margin-right: 17%;
-    margin-left: 17%;
+    margin-right: 16%;
+    margin-left: 16%;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
@@ -234,14 +234,14 @@ ul a {
 /* width */
 
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 6px;
 }
 
 /* Handle */
 
 ::-webkit-scrollbar-thumb {
   background: #FFA;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 /* Handle on hover */
@@ -268,7 +268,7 @@ ul a {
 
 .program:hover {
   box-shadow: 0px 0px 0px 0px #951;
-  color: #FFF;
+  color: #FFA;
   background-color: #951;
 }
 
