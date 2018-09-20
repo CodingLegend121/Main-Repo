@@ -1,0 +1,204 @@
+body {
+  background-color: #F30;
+}
+
+.search-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #400;
+  height: 100px;
+  border-radius: 50px;
+  padding: 10px;
+  z-index: 1;
+  border-style: solid;
+  border-width: 10px;
+  ;
+  border-color: black;
+}
+
+.search-btn {
+  text-decoration: none;
+  color: #F40;
+  font-size: 80px;
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+  background: #400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  transition: 0.6s;
+}
+
+.search-box:hover>.search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover>.search-btn {
+  color: #F40;
+  height: 100px;
+  font-size: 80px;
+  background-color: #400;
+}
+
+.search-box:hover>.search-btn:hover {
+  color: #F40;
+  background-color: #FFF;
+  transition: 0.6s;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 26px;
+  font-family: sans-serif;
+  width: 0px;
+  line-height: 100px;
+  transition: 0.4s;
+}
+
+#searchIcon {
+  font-family: ProductSans;
+}
+
+#googleIcon {
+  font-family: ProductSans;
+}
+
+#Gsearch {
+  visibility: collapse;
+  position: absolute;
+  background-color: white;
+  height: 100px;
+  border-radius: 50px;
+  padding: 10px;
+  z-index: 1;
+  border-style: solid;
+  border-width: 10px;
+  border-color: lightBlue;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+#btnG {
+  text-decoration: none;
+  color: red;
+  font-size: 80px;
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  transition: 0.6s;
+}
+
+#searchIdG {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 26px;
+  font-family: ProductSans;
+  width: 0px;
+  line-height: 100px;
+  transition: 0.4s;
+}
+
+#Gsearch:hover>#searchIdG {
+  width: 240px;
+  padding: 0 6px;
+}
+
+#Gsearch:hover>#btnG {
+  color: white;
+  height: 100px;
+  font-size: 80px;
+  background-color: gray;
+}
+
+#wikiIcon {
+  font-family: serif;
+}
+
+#Wsearch {
+  visibility: collapse;
+  position: absolute;
+  background-color: white;
+  height: 100px;
+  border-radius: 50px;
+  padding: 10px;
+  z-index: 1;
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+}
+
+#btnW {
+  text-decoration: none;
+  color: black;
+  font-size: 80px;
+  float: right;
+  width: 100px;
+  height: 100px;
+  border-radius: 40px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  transition: 0.6s;
+}
+
+#searchIdW {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: black;
+  font-size: 26px;
+  font-family: serif;
+  width: 0px;
+  line-height: 100px;
+  transition: 0.4s;
+}
+
+#Wsearch:hover>#searchIdW {
+  width: 240px;
+  padding: 0 6px;
+}
+
+#Wsearch:hover>#btnW {
+  color: white;
+  height: 100px;
+  font-size: 80px;
+  background-color: black;
+}
+
+@font-face {
+  font-family: ProductSans;
+  src: url('Product.ttf');
+}
+
+::placeholder {
+  color: #F30;
+}

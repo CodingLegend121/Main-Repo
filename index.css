@@ -235,6 +235,10 @@ ul a {
 
 ::-webkit-scrollbar {
   width: 6px;
+  transition: 1s;
+}
+::-webkit-scrollbar:hover {
+  width: 12px;
 }
 
 /* Handle */
@@ -242,6 +246,7 @@ ul a {
 ::-webkit-scrollbar-thumb {
   background: #FFA;
   border-radius: 2px;
+  transition: 1s;
 }
 
 /* Handle on hover */
