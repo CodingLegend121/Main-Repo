@@ -25,7 +25,7 @@ function draw() {
   strokeWeight(30)
 
   noFill()
-  arc(0, 0, 250, 250, 0, h * 12)
+  arc(0, 0, 250, 250, 0, h * 30)
   stroke(100, 200, 255)
   strokeWeight(30)
 
