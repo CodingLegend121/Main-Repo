@@ -1,0 +1,1383 @@
+{
+   "tiles": [
+      {
+        "name": "box",
+        "pos": {
+           "height": "70",
+           "width": "70",
+           "y": "864",
+           "x": "0"
+         }
+      },
+      {
+        "name": "boxAlt",
+        "pos": {
+          "height": "70",
+           "width": "70",
+           "y": "792",
+           "x": "0"
+         }
+      },
+      {
+        "name": "boxCoin",
+        "pos": {
+          "height": "70",
+           "width": "70",
+           "y": "720",
+           "x": "0"
+         }
+      },
+      {
+        "name": "boxCoinAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "0"}
+      },
+      {
+        "name": "boxCoinAlt_disabled",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "0"}
+      },
+      {
+        "name": "boxCoin_disabled",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "0"}
+      },
+      {
+        "name": "boxEmpty",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "0"}
+      },
+      {
+        "name": "boxExplosive",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "0"}
+      },
+      {
+        "name": "boxExplosiveAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "0"}
+      },
+      {
+        "name": "boxExplosive_disabled",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "0"}
+      },
+      {
+        "name": "boxItem",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "0"}
+      },
+      {
+        "name": "boxItemAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "0"}
+      },
+      {
+        "name": "boxItemAlt_disabled",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "432"}
+      },
+      {
+        "name": "boxItem_disabled",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "0"}
+      },
+      {
+        "name": "boxWarning",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "72"}
+      },
+      {
+        "name": "brickWall",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "216"}
+      },
+      {
+        "name": "bridge",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "216"}
+      },
+      {
+        "name": "bridgeLogs",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "720",
+         "x": "288"}
+      },
+      {
+        "name": "castle",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "792",
+         "x": "288"}
+      },
+      {
+        "name": "castleCenter",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "504"}
+      },
+      {
+        "name": "castleCenter_rounded",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "720",
+         "x": "504"}
+      },
+      {
+        "name": "castleCliffLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "792",
+         "x": "504"}
+      },
+      {
+        "name": "castleCliffLeftAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "720",
+         "x": "648"}
+      },
+      {
+        "name": "castleCliffRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "792",
+         "x": "648"}
+      },
+      {
+        "name": "castleCliffRightAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "792"}
+      },
+      {
+        "name": "castleHalf",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "792"}
+      },
+      {
+        "name": "castleHalfLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "720",
+         "x": "432"}
+      },
+      {
+        "name": "castleHalfMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "648"}
+      },
+      {
+        "name": "castleHalfRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "792"}
+      },
+      {
+        "name": "castleHillLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "648"}
+      },
+      {
+        "name": "castleHillLeft2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "792"}
+      },
+      {
+        "name": "castleHillRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "792"}
+      },
+      {
+        "name": "castleHillRight2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "792"}
+      },
+      {
+        "name": "castleLedgeLeft",
+        "pos": {
+        "height": "22",
+         "width": "5",
+         "y": "868",
+         "x": "856"}
+      },
+      {
+        "name": "castleLedgeRight",
+        "pos": {
+        "height": "22",
+         "width": "5",
+         "y": "868",
+         "x": "842"}
+      },
+      {
+        "name": "castleLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "792"}
+      },
+      {
+        "name": "castleMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "792"}
+      },
+      {
+        "name": "castleRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "792"}
+      },
+      {
+        "name": "dirt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "792"}
+      },
+      {
+        "name": "dirtCenter",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "720"}
+      },
+      {
+        "name": "dirtCenter_rounded",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "792",
+         "x": "720"}
+      },
+      {
+        "name": "dirtCliffLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "720",
+         "x": "720"}
+      },
+      {
+        "name": "dirtCliffLeftAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "720"}
+      },
+      {
+        "name": "dirtCliffRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "720"}
+      },
+      {
+        "name": "dirtCliffRightAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "720"}
+      },
+      {
+        "name": "dirtHalf",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "720"}
+      },
+      {
+        "name": "dirtHalfLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "720"}
+      },
+      {
+        "name": "dirtHalfMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "720"}
+      },
+      {
+        "name": "dirtHalfRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "720"}
+      },
+      {
+        "name": "dirtHillLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "720"}
+      },
+      {
+        "name": "dirtHillLeft2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "720"}
+      },
+      {
+        "name": "dirtHillRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "720"}
+      },
+      {
+        "name": "dirtHillRight2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "648"}
+      },
+      {
+        "name": "dirtLedgeLeft",
+        "pos": {
+        "height": "18",
+         "width": "5",
+         "y": "892",
+         "x": "842"}
+      },
+      {
+        "name": "dirtLedgeRight",
+        "pos": {
+        "height": "18",
+         "width": "5",
+         "y": "912",
+         "x": "842"}
+      },
+      {
+        "name": "dirtLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "504"}
+      },
+      {
+        "name": "dirtMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "504"}
+      },
+      {
+        "name": "dirtRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "648"}
+      },
+      {
+        "name": "door_closedMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "648"}
+      },
+      {
+        "name": "door_closedTop",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "648"}
+      },
+      {
+        "name": "door_openMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "648"}
+      },
+      {
+        "name": "door_openTop",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "648"}
+      },
+      {
+        "name": "fence",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "648"}
+      },
+      {
+        "name": "fenceBroken",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "648"}
+      },
+      {
+        "name": "grass",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "648"}
+      },
+      {
+        "name": "grassCenter",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "576"}
+      },
+      {
+        "name": "grassCenter_rounded",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "792",
+         "x": "576"}
+      },
+      {
+        "name": "grassCliffLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "720",
+         "x": "576"}
+      },
+      {
+        "name": "grassCliffLeftAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "576"}
+      },
+      {
+        "name": "grassCliffRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "576"}
+      },
+      {
+        "name": "grassCliffRightAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "576"}
+      },
+      {
+        "name": "grassHalf",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "576"}
+      },
+      {
+        "name": "grassHalfLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "576"}
+      },
+      {
+        "name": "grassHalfMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "576"}
+      },
+      {
+        "name": "grassHalfRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "576"}
+      },
+      {
+        "name": "grassHillLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "576"}
+      },
+      {
+        "name": "grassHillLeft2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "576"}
+      },
+      {
+        "name": "grassHillRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "576"}
+      },
+      {
+        "name": "grassHillRight2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "504"}
+      },
+      {
+        "name": "grassLedgeLeft",
+        "pos": {
+        "height": "24",
+         "width": "5",
+         "y": "868",
+         "x": "849"}
+      },
+      {
+        "name": "grassLedgeRight",
+        "pos": {
+        "height": "24",
+         "width": "5",
+         "y": "894",
+         "x": "849"}
+      },
+      {
+        "name": "grassLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "504"}
+      },
+      {
+        "name": "grassMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "504"}
+      },
+      {
+        "name": "grassRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "504"}
+      },
+      {
+        "name": "hill_large",
+        "pos": {
+        "height": "146",
+         "width": "48",
+         "y": "720",
+         "x": "842"}
+      },
+      {
+        "name": "hill_largeAlt",
+        "pos": {
+        "height": "146",
+         "width": "48",
+         "y": "0",
+         "x": "864"}
+      },
+      {
+        "name": "hill_small",
+        "pos": {
+        "height": "106",
+         "width": "48",
+         "y": "828",
+         "x": "792"}
+      },
+      {
+        "name": "hill_smallAlt",
+        "pos": {
+        "height": "106",
+         "width": "48",
+         "y": "720",
+         "x": "792"}
+      },
+      {
+        "name": "ladder_mid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "504"}
+      },
+      {
+        "name": "ladder_top",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "504"}
+      },
+      {
+        "name": "liquidLava",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "504"}
+      },
+      {
+        "name": "liquidLavaTop",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "432"}
+      },
+      {
+        "name": "liquidLavaTop_mid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "792",
+         "x": "432"}
+      },
+      {
+        "name": "liquidWater",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "504"}
+      },
+      {
+        "name": "liquidWaterTop",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "432"}
+      },
+      {
+        "name": "liquidWaterTop_mid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "432"}
+      },
+      {
+        "name": "lock_blue",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "432"}
+      },
+      {
+        "name": "lock_green",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "72"}
+      },
+      {
+        "name": "lock_red",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "432"}
+      },
+      {
+        "name": "lock_yellow",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "432"}
+      },
+      {
+        "name": "rockHillLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "432"}
+      },
+      {
+        "name": "rockHillRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "432"}
+      },
+      {
+        "name": "ropeAttached",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "432"}
+      },
+      {
+        "name": "ropeHorizontal",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "432"}
+      },
+      {
+        "name": "ropeVertical",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "360"}
+      },
+      {
+        "name": "sand",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "792",
+         "x": "360"}
+      },
+      {
+        "name": "sandCenter",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "576"}
+      },
+      {
+        "name": "sandCenter_rounded",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "792",
+         "x": "576"}
+      },
+      {
+        "name": "sandCliffLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "720",
+         "x": "360"}
+      },
+      {
+        "name": "sandCliffLeftAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "360"}
+      },
+      {
+        "name": "sandCliffRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "360"}
+      },
+      {
+        "name": "sandCliffRightAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "360"}
+      },
+      {
+        "name": "sandHalf",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "360"}
+      },
+      {
+        "name": "sandHalfLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "360"}
+      },
+      {
+        "name": "sandHalfMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "360"}
+      },
+      {
+        "name": "sandHalfRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "360"}
+      },
+      {
+        "name": "sandHillLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "360"}
+      },
+      {
+        "name": "sandHillLeft2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "360"}
+      },
+      {
+        "name": "sandHallRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "360"}
+      },
+      {
+        "name": "sandHallRight2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "288"}
+      },
+      {
+        "name": "sandLedgeLeft",
+        "pos": {
+        "height": "18",
+         "width": "5",
+         "y": "892",
+         "x": "856"}
+      },
+      {
+        "name": "sandLedgeRight",
+        "pos": {
+        "height": "18",
+         "width": "5",
+         "y": "912",
+         "x": "856"}
+      },
+      {
+        "name": "sandLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "288"}
+      },
+      {
+        "name": "sandMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "288"}
+      },
+      {
+        "name": "sandRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "288"}
+      },
+      {
+        "name": "sign",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "288"}
+      },
+      {
+        "name": "signExit",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "288"}
+      },
+      {
+        "name": "signLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "288"}
+      },
+      {
+        "name": "signRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "288"}
+      },
+      {
+        "name": "snow",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "288"}
+      },
+      {
+        "name": "snowCenter",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "720"}
+      },
+      {
+        "name": "snowCenter_rounded",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "288"}
+      },
+      {
+        "name": "snowCliffLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "288"}
+      },
+      {
+        "name": "snowCliffLeftAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "216"}
+      },
+      {
+        "name": "snowCliffRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "792",
+         "x": "216"}
+      },
+      {
+        "name": "snowCliffRightAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "720",
+         "x": "216"}
+      },
+      {
+        "name": "snowHalf",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "216"}
+      },
+      {
+        "name": "snowHalfLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "216"}
+      },
+      {
+        "name": "snowHalfMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "216"}
+      },
+      {
+        "name": "snowHalfRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "216"}
+      },
+      {
+        "name": "snowHillLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "216"}
+      },
+      {
+        "name": "snowHillLeft2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "216"}
+      },
+      {
+        "name": "snowHillRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "216"}
+      },
+      {
+        "name": "snowHillRight2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "216"}
+      },
+      {
+        "name": "snowLedgeLeft",
+        "pos": {
+        "height": "18",
+         "width": "5",
+         "y": "868",
+         "x": "863"}
+      },
+      {
+        "name": "snowLedgeRight",
+        "pos": {
+        "height": "18",
+         "width": "5",
+         "y": "888",
+         "x": "863"}
+      },
+      {
+        "name": "snowLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "144"}
+      },
+      {
+        "name": "snowMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "792",
+         "x": "144"}
+      },
+      {
+        "name": "snowRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "720",
+         "x": "144"}
+      },
+      {
+        "name": "stone",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "648",
+         "x": "144"}
+      },
+      {
+        "name": "stoneCenter",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "576",
+         "x": "144"}
+      },
+      {
+        "name": "stoneCenter_rounded",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "144"}
+      },
+      {
+        "name": "stoneCliffLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "144"}
+      },
+      {
+        "name": "stoneCliffLeftAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "144"}
+      },
+      {
+        "name": "stoneCliffRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "144"}
+      },
+      {
+        "name": "stoneCliffRightAlt",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "144"}
+      },
+      {
+        "name": "stoneHalf",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "144"}
+      },
+      {
+        "name": "stoneHalfLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "144"}
+      },
+      {
+        "name": "stoneHalfMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "144"}
+      },
+      {
+        "name": "stoneHalfRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "864",
+         "x": "72"}
+      },
+      {
+        "name": "stoneHillLeft2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "792",
+         "x": "72"}
+      },
+      {
+        "name": "stoneHillRight2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "720",
+         "x": "72"}
+      },
+      {
+        "name": "stoneLedgeLeft",
+        "pos": {
+        "height": "24",
+         "width": "5",
+         "y": "908",
+         "x": "863"}
+      },
+      {
+        "name": "stoneLedgeRight",
+        "pos": {
+        "height": "24",
+         "width": "5",
+         "y": "148",
+         "x": "864"}
+      },
+      {
+        "name": "stoneLeft",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "504",
+         "x": "72"}
+      },
+      {
+        "name": "stoneMid",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "432",
+         "x": "72"}
+      },
+      {
+        "name": "stoneRight",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "360",
+         "x": "72"}
+      },
+      {
+        "name": "stoneWall",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "288",
+         "x": "72"}
+      },
+      {
+        "name": "tochLit",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "216",
+         "x": "72"}
+      },
+      {
+        "name": "tochLit2",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "144",
+         "x": "72"}
+      },
+      {
+        "name": "torch",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "72",
+         "x": "72"}
+      },
+      {
+        "name": "window",
+        "pos": {
+        "height": "70",
+         "width": "70",
+         "y": "0",
+         "x": "72"}
+      }
+   ]
+}
